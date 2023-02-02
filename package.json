@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "db-hafas": "^6.0.0",
+    "db-prices": "^3.0.3",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
