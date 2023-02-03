@@ -1,10 +1,10 @@
-export function Results({ journeys }) {
-    console.log(journeys);
+export function Results({ journeys, onCardClick }) {
+
     return (
         <div class="card-container">
             {journeys.map((data, idx) => (
 
-                <div class="card">
+                <div class="card" key={idx} onClick={() => onCardClick(data)}>
                     <div class="container">
                         <h2>{data.destination.name}</h2>
                         <hr></hr>

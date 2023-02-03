@@ -8,7 +8,7 @@ body {
     margin-top: 4rem;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #main-form-container {
@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-size: 62px;
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
     border: 5px solid rgb(205, 58, 52);
     border-radius: 20px;
@@ -44,6 +44,8 @@ select {
     border: none;
     border-radius: 5px;
     margin-top: 10px;
+    padding: .5 rem;
+    margin: 1rem;
     text-align: center;
     font-size: 18px;
 }
@@ -53,26 +55,35 @@ select option:nth-child(2n) {
     color: white;
 }
 
+
 select {
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
 }
 
 #time-frame {
     margin-top: 5px;
     padding: 5px;
+    background-color: rgb(205, 58, 52);
     border: 5px solid rgb(205, 58, 52);
     border-radius: 20px;
 }
 
 .date-selection {
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
 }
 
 .button-send {
-    font-weight: 800;
+    align-self: center;
+    width: 10rem;
+    height: 10rem;
+    font-weight: 400;
     text-align: center;
+}
+
+.button-send:hover{
+    background-color:rgb(205, 58, 52);
 }
 
 
@@ -93,16 +104,31 @@ select {
 }
 
 .card h2 {
-    
+    user-select: none;
 }
 
+
 hr {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
+    animation: card-hover 0.15s linear 1 normal forwards;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@keyframes card-hover {
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.98);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
 }
 
 /* Add some padding inside the card container */
@@ -111,5 +137,34 @@ hr {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     padding: 1rem;
-    
+
+}
+
+.loader {
+    margin: auto;
+    padding: 4rem;
+    width: 80px;
+    height: 80px;
+}
+
+.loader:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
