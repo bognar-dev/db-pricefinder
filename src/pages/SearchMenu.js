@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from 'react';
-import { Results } from './Results';
+import { Results } from './results';
 import { SelectedDestination } from './SelectedDestination';
 
 export function SearchMenu() {
