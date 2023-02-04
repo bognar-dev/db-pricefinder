@@ -2,7 +2,7 @@ import { React, useEffect, useState } from 'react';
 import { Results } from './results';
 import { SelectedDestination } from './SelectedDestination';
 
-export function SearchMenu() {
+default export function SearchMenu() {
 
     const [journeys, setJourneys] = useState([]);
     const [loaded, setLoaded] = useState('notloading');
