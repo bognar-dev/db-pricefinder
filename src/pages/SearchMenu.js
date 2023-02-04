@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from 'react';
-import Resultsfrom from './results.js';
+import Results from './results.js';
 import SelectedDestination from './SelectedDestination.js';
 
 export default function SearchMenu() {
