@@ -1,7 +1,6 @@
 
 
-
-default export function SelectedDestination({ destination, onBackClick }) {
+export default function SelectedDestination({ destination, onBackClick }) {
   return (
     <div class="selected-destination single-card">
       <h2>Details for {destination.destination.name}:</h2>
