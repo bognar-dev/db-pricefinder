@@ -1,4 +1,4 @@
-default export function Results({ journeys, onCardClick }) {
+ export default function Results({ journeys, onCardClick }) {
 
     return (
         <div class="card-container">
