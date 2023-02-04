@@ -1,4 +1,3 @@
-import Cors from 'cors';
 import { createDbHafas } from 'db-hafas';
 import prices from 'db-prices';
 import moment from 'moment-timezone';
