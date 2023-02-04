@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from 'react';
-import { Results } from './results.js';
-import { SelectedDestination } from './SelectedDestination.js';
+import Resultsfrom './results.js';
+import SelectedDestination from './SelectedDestination.js';
 
 export default function SearchMenu() {
 
