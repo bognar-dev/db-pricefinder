@@ -1,5 +1,7 @@
 import { React, useEffect, useState } from 'react';
 import { Results } from './Results';
+import { SelectedDestination } from './SelectedDestination';
+
 export function SearchMenu() {
 
     const [journeys, setJourneys] = useState([]);
@@ -50,20 +52,20 @@ export function SearchMenu() {
         <>
             <div id="main-form-container">
                 <form method="POST" onSubmit={handleSubmit}>
-                    <label for="from_location">From:</label>
-                    <select id="select-from" name="from_location" required>
+                    <h2>Select your start location:</h2>
+                    <select class="location-select" name="from_location" required>
                         <option value="">Select Location</option>
                         <option value="8000253">Mönchengladbach</option>
                         <option value="8098096">Stuttgart</option>
                     </select>
-                    <div id="time-frame">
                         <h2>Please pick your time of travel: </h2>
+                    <div id="time-frame">
                         <label for="from_time">From</label>
                         <input id="from-time" class="date-selection" type="date" name="from_time"></input>
                         <label>Until</label>
                         <input class="date-selection" type="date" name="to_time"></input>
                     </div>
-                    <input class="button-send" type="submit" value="Start searching"></input>
+                    <input class="form-button" type="submit" value="Start searching"></input>
                 </form>
             </div >
 
@@ -78,12 +80,3 @@ export function SearchMenu() {
 
 
 
-function SelectedDestination({ destination , onBackClick}) {
-    return (
-      <div class="selected-destination">
-        <h2>Details for Destination: {destination.destination.name}</h2>
-        <p>Price: {destination.journeysTo[0].price.amount}</p>
-        <button class="back-button" onClick={onBackClick}>Back to Results</button>
-      </div>
-    );
-  }

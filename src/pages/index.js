@@ -7,7 +7,7 @@ import { SearchMenu } from './SearchMenu'
 export default function Home() {
   return (
     <>
-      <h1>DB-Price finder</h1>
+      <h1 className="main-header">DB-Price finder</h1>
       <SearchMenu />
     </>
   );

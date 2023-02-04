@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 
 
-body {
+/* body {
     background-color: rgb(66, 66, 66);
     color: azure;
     margin: auto;
@@ -112,7 +112,7 @@ hr {
     color: rgb(255, 255, 255);
 }
 
-/* On mouse-over, add a deeper shadow */
+
 .card:hover {
     animation: card-hover 0.15s linear 1 normal forwards;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -131,7 +131,7 @@ hr {
     }
 }
 
-/* Add some padding inside the card container */
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -167,4 +167,197 @@ hr {
     100% {
         transform: rotate(360deg);
     }
+} */
+
+:root {
+    --text-colour-black: hsla(197, 94%, 6%, 1);
+    --text-colour-white:  rgb(244, 249, 233);
+    --db-red: rgb(87, 0, 7);
+    --russian-green: rgb(115, 148, 124);
+    --bg-colour: rgb(244, 249, 233);
+    --slate-gray: hsla(200, 13%, 48%, 1);
+}
+
+body {
+    background-color: var(--bg-colour);
+    color: var(--text-colour-white);
+    margin: auto;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-form-container {
+    align-items: center;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+
+form {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 4rem;
+    border-radius: 4rem;
+    background-color: var(--slate-gray);
+}
+
+.main-header {
+    padding: 1rem;
+
+    background-color: var(--slate-gray);
+    text-align: center;
+
+}
+
+#time-frame {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+label{
+    margin: 1rem;
+}
+
+
+.location-select{
+    font-size: 18px;
+    color: var(--text-colour-white);
+    user-select: none;
+    border: none;
+    border-radius: .7rem;
+    padding: .5rem;
+    background-color: var(--russian-green);
+}
+
+input{
+    font-size: 18px;
+    color: var(--text-colour-white);
+    padding: .5rem;
+    border: none;
+    border-radius: .7rem;
+    background-color: var(--russian-green);
+}
+
+input:hover{
+    animation: card-hover 0.15s linear 1 normal forwards;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.location-select:hover{
+    animation: card-hover 0.15s linear 1 normal forwards;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
+
+.card {
+    text-align: center;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: var(--slate-gray);
+    color: var(--text-colour-white);
+    box-shadow: 0 1px 6px 0 var(--text-colour-black);
+    transition: 0.3s;
+    border-radius: 0.5rem;
+}
+
+.card h4 {
+    user-select: none;
+}
+
+
+hr {
+    color: var(--bg-colour);
+}
+
+
+.card:hover {
+    animation: card-hover 0.15s linear 1 normal forwards;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@keyframes card-hover {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.98);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 1rem;
+    padding: 1rem;
+
+}
+
+.loader {
+    margin: auto;
+    padding: 4rem;
+    width: 80px;
+    height: 80px;
+}
+
+.loader:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.selected-destination{
+    background-color: var(--russian-green);
+}
+
+.single-card {
+    margin: auto;
+    text-align: center;
+    background-color: var(--slate-gray);
+    color: var(--text-colour-white);
+    box-shadow: 0 1px 6px 0 var(--text-colour-black);
+    transition: 0.3s;
+    width: 90%;
+}
+
+
+button{
+    font-size: 18px;
+    color: var(--text-colour-white);
+    padding: .5rem;
+    border: none;
+    border-radius: .7rem;
+    background-color: var(--russian-green);
 }

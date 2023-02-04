@@ -6,7 +6,7 @@ export function Results({ journeys, onCardClick }) {
 
                 <div class="card" key={idx} onClick={() => onCardClick(data)}>
                     <div class="container">
-                        <h2>{data.destination.name}</h2>
+                        <h4>{data.destination.name}</h4>
                         <hr></hr>
                         <p>from: {data.journeysTo[0].price.amount} {data.journeysTo[0].price.currency}</p>
                     </div>
