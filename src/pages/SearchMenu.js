@@ -7,7 +7,11 @@ export default function SearchMenu() {
     const [journeys, setJourneys] = useState([]);
     const [loaded, setLoaded] = useState('notloading');
     const [selectedDestination, setSelectedDestination] = useState(null);
+    const [selectedStation, setSelectedStation] = useState(null);
 
+  const handleStationSelection = (station) => {
+    setSelectedStation(station);
+    };
     function clickTest() {
         console.log("test")
     }
