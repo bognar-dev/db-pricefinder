@@ -1,5 +1,6 @@
 
 
+
 export default function SelectedDestination({ destination, onBackClick }) {
   return (
     <div class="selected-destination single-card">

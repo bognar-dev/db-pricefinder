@@ -205,10 +205,12 @@ form {
 }
 
 .main-header {
-    padding: 1rem;
-
+    margin-top: 0;
+    padding: 4rem;
+    font-size: 60px;
     background-color: var(--slate-gray);
     text-align: center;
+    height: 4rem;
 
 }
 
