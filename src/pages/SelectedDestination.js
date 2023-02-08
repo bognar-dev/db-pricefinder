@@ -4,8 +4,6 @@ import { React, useEffect, useState } from 'react';
 
 export default function SelectedDestination({ destination, onBackClick }) {
   const [selectedJourney, setSelectedJourney] = useState(null);
-
-
   
 
   function handleJourneyClick(journey) {

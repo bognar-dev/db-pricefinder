@@ -1,5 +1,6 @@
 export default function Results({ journeys = [], onCardClick }) {
 
+
     return (
         <div class="card-container">
             {journeys.map((data, idx) => (
