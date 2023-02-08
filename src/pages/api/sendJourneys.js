@@ -1,7 +1,7 @@
 import { createDbHafas } from 'db-hafas';
 import prices from 'db-prices';
 import moment from 'moment-timezone';
-
+import fs from 'fs';
 
 
 
@@ -12,6 +12,13 @@ export default async function handler(req, res) {
   const journeys = await priceSearch(req.body.from_location,req.body.from_time,req.body.to_time);
   const journeysFiltered = await filterJourneys(journeys,500);
   console.log(journeysFiltered);
+  // fs.writeFile("C:/Users/nikla/Documents/Studium/WEB/DB-next/db-pricefinder/public/object.json", JSON.stringify(journeysFiltered), err => {
+  //   if (err) {
+  //     console.log("error")
+  //     console.error(err);
+  //   }
+  //   console.log("sucessss")
+  // });
   res.status(200).json(journeysFiltered);
 }
 

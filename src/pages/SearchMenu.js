@@ -35,6 +35,7 @@ export default function SearchMenu() {
         // You can pass formData as a fetch body directly:
         // You can work with it as a plain object.
         const formJson = Object.fromEntries(formData.entries());
+        formJson.from_location = selectedStation.id;
         console.log("prefetch")
         console.log(formJson)
         fetch('api/sendJourneys', {
@@ -58,14 +59,9 @@ export default function SearchMenu() {
             <div id="main-form-container">
                 <form method="POST" onSubmit={handleSubmit}>
                     <h2>Select your start location:</h2>
-                    <div>
+    
                         <SearchableStationList onStationSelection={handleStationSelection} />
-                        {selectedStation && (
-                            <div>
-                                You have selected: {selectedStation.name} ({selectedStation._id})
-                            </div>
-                        )}
-                    </div>
+                    
                     <h2>Please pick your time of travel: </h2>
                     <div id="time-frame">
                         <label for="from_time">From</label>

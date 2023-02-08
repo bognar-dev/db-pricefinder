@@ -1,46 +1,50 @@
 import React, { useState, useEffect } from 'react';
-import stations from '/public/allstations.csv';
+import * as stationData from '/public/stations.json';
 
-const SearchableStationList = () => {
-  const hallo = "";
+const SearchableStationList = ({ onStationSelection }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [stationsList, setStationsList] = useState([]);
   const [selectedStation, setSelectedStation] = useState(null);
-  const [suggestions, setSuggestions] = useState([]);
+  const [stations, setStations] = useState([]);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   useEffect(() => {
-    setStationsList(stations);
+    setStations(stationData.default);
   }, []);
 
   const handleSearchTermChange = (e) => {
     setSearchTerm(e.target.value);
-    setSuggestions(stationsList.filter(station => station.name.toLowerCase().includes(e.target.value.toLowerCase())));
+    setSelectedStation(null);
+    if (searchTerm.length >= 3) {
+      setDropdownOpen(true);
+    } else {
+      setDropdownOpen(false);
+    }
   };
 
-  const handleStationSelection = (_id) => {
-    setSelectedStation(stationsList.find(station => station._id === _id));
+  const handleStationSelection = (id) => {
+    const selected = stations.find(station => station.id === id);
+    setSelectedStation(selected);
+    setSearchTerm(selected.name);
+    setDropdownOpen(false);
+    onStationSelection(selected);
   };
+
+  const filteredStations = 
+    stations.filter(
+    station => station.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div>
-      <input type="text" value={searchTerm} onChange={handleSearchTermChange} />
-      {suggestions.length > 0 && (
+      <input class="location-select"type="text" value={searchTerm} onChange={handleSearchTermChange} />
+      {dropdownOpen && (
         <ul>
-          {suggestions.map(station => (
-            <li key={station._id} onClick={() => {
-              setSearchTerm(station.name);
-              setSuggestions([]);
-              handleStationSelection(station._id);
-            }}>
+          {filteredStations.map(station => (
+            <li tabIndex="-1" key={station.id} onClick={() => handleStationSelection(station.id)}>
               {station.name}
             </li>
           ))}
         </ul>
-      )}
-      {selectedStation && (
-        <div>
-          You have selected: {selectedStation.name} ({selectedStation._id})
-        </div>
       )}
     </div>
   );
