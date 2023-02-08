@@ -22,7 +22,7 @@ export default function SelectedDestination({ destination, onBackClick }) {
     <div class="selected-destination single-card">
       <h2>Details for {destination.destination.name}:</h2>
       {!selectedJourney && destination.journeysTo.map((journeys, idx) => (
-        <div class="card-container">
+        <div key={idx}class="card-container">
          <JourneyDisplay journeyData={journeys} handleJourneyClick={handleJourneyClick} />
         </div>
       ))}
