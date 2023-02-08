@@ -1,0 +1,3648 @@
+[
+    {
+        "destination": {
+            "name": "Munich",
+            "id": "8000261"
+        },
+        "journeysTo": [
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000261",
+                            "name": "München Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000261",
+                                "latitude": 48.140364,
+                                "longitude": 11.558744
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T06:29:00+01:00",
+                        "plannedDeparture": "2023-02-22T06:29:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T09:18:00+01:00",
+                        "plannedArrival": "2023-02-22T09:18:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|156786|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-991",
+                            "fahrtNr": "991",
+                            "name": "ICE 991",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "München Hbf",
+                        "arrivalPlatform": "15",
+                        "plannedArrivalPlatform": "15",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "4",
+                        "plannedDeparturePlatform": "4",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=München Hbf@L=8000261@a=128@$202302220629$202302220918$ICE  991$$1$$$$$$",
+                "price": {
+                    "amount": 14.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000262",
+                            "name": "München Ost",
+                            "location": {
+                                "type": "location",
+                                "id": "8000262",
+                                "latitude": 48.127302,
+                                "longitude": 11.604993
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T07:11:00+01:00",
+                        "plannedDeparture": "2023-02-22T07:11:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:21:00+01:00",
+                        "plannedArrival": "2023-02-22T10:21:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|208235|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ec-217",
+                            "fahrtNr": "217",
+                            "name": "EC 217",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "EC",
+                            "mode": "train",
+                            "product": "national",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Graz Hbf",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000262",
+                            "name": "München Ost",
+                            "location": {
+                                "type": "location",
+                                "id": "8000262",
+                                "latitude": 48.127302,
+                                "longitude": 11.604993
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000261",
+                            "name": "München Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000261",
+                                "latitude": 48.140364,
+                                "longitude": 11.558744
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T10:21:00+01:00",
+                        "plannedDeparture": "2023-02-22T10:21:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:56:00+01:00",
+                        "plannedArrival": "2023-02-22T10:56:00+01:00",
+                        "arrivalDelay": null,
+                        "public": true,
+                        "walking": true,
+                        "distance": null,
+                        "transfer": true,
+                        "remarks": [
+                            {
+                                "type": "hint",
+                                "code": "Q0",
+                                "text": "Realize alternate station!"
+                            }
+                        ]
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=München Ost@L=8000262@a=128@$202302220711$202302221021$EC   217$$1$$$$$$§D$A=1@O=München Ost@L=8000262@a=128@$A=1@O=München Hbf@L=8000261@a=128@$202302221021$202302221056$$$1$$$$$$",
+                "remarks": [],
+                "price": {
+                    "amount": 17.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T01:21:00+01:00",
+                        "plannedDeparture": "2023-02-22T01:21:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T01:40:00+01:00",
+                        "plannedArrival": "2023-02-22T01:40:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170892|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38385",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "8",
+                        "plannedDeparturePlatform": "8",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000261",
+                            "name": "München Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000261",
+                                "latitude": 48.140364,
+                                "longitude": 11.558744
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T02:19:00+01:00",
+                        "plannedDeparture": "2023-02-22T02:19:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T06:03:00+01:00",
+                        "plannedArrival": "2023-02-22T06:03:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|150969|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-1119",
+                            "fahrtNr": "1119",
+                            "name": "ICE 1119",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "München Hbf",
+                        "arrivalPlatform": "14",
+                        "plannedArrivalPlatform": "14",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "7",
+                        "plannedDeparturePlatform": "7",
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220121$202302220140$S      3$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=München Hbf@L=8000261@a=128@$202302220219$202302220603$ICE 1119$$1$$$$$$",
+                "price": {
+                    "amount": 23.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000055",
+                            "name": "Bruchsal",
+                            "location": {
+                                "type": "location",
+                                "id": "8000055",
+                                "latitude": 49.124592,
+                                "longitude": 8.589687
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": false,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T04:57:00+01:00",
+                        "plannedDeparture": "2023-02-22T04:57:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T05:43:00+01:00",
+                        "plannedArrival": "2023-02-22T05:43:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170813|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38307",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "4",
+                        "plannedArrivalPlatform": "4",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "9",
+                        "plannedDeparturePlatform": "9",
+                        "departurePrognosisType": "prognosed",
+                        "cycle": {
+                            "min": 1200,
+                            "max": 2280,
+                            "nr": 4
+                        },
+                        "alternatives": [
+                            {
+                                "tripId": "1|210115|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-3",
+                                    "fahrtNr": "38313",
+                                    "name": "S 3",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Karlsruhe Hbf",
+                                "when": "2023-02-22T05:35:00+01:00",
+                                "plannedWhen": "2023-02-22T05:35:00+01:00",
+                                "delay": null
+                            },
+                            {
+                                "tripId": "1|170821|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-3",
+                                    "fahrtNr": "38315",
+                                    "name": "S 3",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Karlsruhe Hbf",
+                                "when": "2023-02-22T06:12:00+01:00",
+                                "plannedWhen": "2023-02-22T06:12:00+01:00",
+                                "delay": null
+                            },
+                            {
+                                "tripId": "1|170828|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-3",
+                                    "fahrtNr": "38319",
+                                    "name": "S 3",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Karlsruhe Hbf",
+                                "when": "2023-02-22T06:46:00+01:00",
+                                "plannedWhen": "2023-02-22T06:46:00+01:00",
+                                "delay": null
+                            },
+                            {
+                                "tripId": "1|170834|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-3",
+                                    "fahrtNr": "38325",
+                                    "name": "S 3",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Karlsruhe Hbf",
+                                "when": "2023-02-22T07:06:00+01:00",
+                                "plannedWhen": "2023-02-22T07:06:00+01:00",
+                                "delay": null
+                            }
+                        ]
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000055",
+                            "name": "Bruchsal",
+                            "location": {
+                                "type": "location",
+                                "id": "8000055",
+                                "latitude": 49.124592,
+                                "longitude": 8.589687
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": false,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000261",
+                            "name": "München Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000261",
+                                "latitude": 48.140364,
+                                "longitude": 11.558744
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T06:16:00+01:00",
+                        "plannedDeparture": "2023-02-22T06:16:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T08:58:00+01:00",
+                        "plannedArrival": "2023-02-22T08:58:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|154398|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-561",
+                            "fahrtNr": "561",
+                            "name": "ICE 561",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "München Hbf",
+                        "arrivalPlatform": "13",
+                        "plannedArrivalPlatform": "13",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "3",
+                        "plannedDeparturePlatform": "3",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Bruchsal@L=8000055@a=128@$202302220457$202302220543$S      3$$1$$$$$$§T$A=1@O=Bruchsal@L=8000055@a=128@$A=1@O=München Hbf@L=8000261@a=128@$202302220616$202302220858$ICE  561$$1$$$$$$",
+                "cycle": {
+                    "min": 1200
+                },
+                "price": {
+                    "amount": 23.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000191",
+                            "name": "Karlsruhe Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000191",
+                                "latitude": 48.99353,
+                                "longitude": 8.401939
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T07:35:00+01:00",
+                        "plannedDeparture": "2023-02-22T07:35:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T07:58:00+01:00",
+                        "plannedArrival": "2023-02-22T07:58:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|153835|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-5",
+                            "fahrtNr": "5",
+                            "name": "ICE 5",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Basel SBB",
+                        "arrivalPlatform": "2",
+                        "plannedArrivalPlatform": "2",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "4",
+                        "plannedDeparturePlatform": "4",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000191",
+                            "name": "Karlsruhe Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000191",
+                                "latitude": 48.99353,
+                                "longitude": 8.401939
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000261",
+                            "name": "München Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000261",
+                                "latitude": 48.140364,
+                                "longitude": 11.558744
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T08:05:00+01:00",
+                        "plannedDeparture": "2023-02-22T08:05:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:56:00+01:00",
+                        "plannedArrival": "2023-02-22T10:56:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|153565|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-267",
+                            "fahrtNr": "267",
+                            "name": "ICE 267",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "München Hbf",
+                        "arrivalPlatform": "13",
+                        "plannedArrivalPlatform": "13",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "7",
+                        "plannedDeparturePlatform": "7",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Karlsruhe Hbf@L=8000191@a=128@$202302220735$202302220758$ICE    5$$1$$$$$$§T$A=1@O=Karlsruhe Hbf@L=8000191@a=128@$A=1@O=München Hbf@L=8000261@a=128@$202302220805$202302221056$ICE  267$$1$$$$$$",
+                "price": {
+                    "amount": 35.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000055",
+                            "name": "Bruchsal",
+                            "location": {
+                                "type": "location",
+                                "id": "8000055",
+                                "latitude": 49.124592,
+                                "longitude": 8.589687
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": false,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T04:19:00+01:00",
+                        "plannedDeparture": "2023-02-22T04:19:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T05:05:00+01:00",
+                        "plannedArrival": "2023-02-22T05:05:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170804|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38301",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "4",
+                        "plannedArrivalPlatform": "4",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null,
+                        "cycle": {
+                            "min": 2040,
+                            "max": 2280,
+                            "nr": 4
+                        }
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000055",
+                            "name": "Bruchsal",
+                            "location": {
+                                "type": "location",
+                                "id": "8000055",
+                                "latitude": 49.124592,
+                                "longitude": 8.589687
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": false,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000261",
+                            "name": "München Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000261",
+                                "latitude": 48.140364,
+                                "longitude": 11.558744
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T05:09:00+01:00",
+                        "plannedDeparture": "2023-02-22T05:09:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T07:54:00+01:00",
+                        "plannedArrival": "2023-02-22T07:54:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|150758|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-1061",
+                            "fahrtNr": "1061",
+                            "name": "ICE 1061",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "München Hbf",
+                        "arrivalPlatform": "12",
+                        "plannedArrivalPlatform": "12",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "3",
+                        "plannedDeparturePlatform": "3",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Bruchsal@L=8000055@a=128@$202302220419$202302220505$S      3$$1$$$$$$§T$A=1@O=Bruchsal@L=8000055@a=128@$A=1@O=München Hbf@L=8000261@a=128@$202302220509$202302220754$ICE 1061$$1$$$$$$",
+                "cycle": {
+                    "min": 2040
+                },
+                "price": {
+                    "amount": 36.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            }
+        ]
+    },
+    {
+        "destination": {
+            "name": "Paris",
+            "id": "8700011"
+        },
+        "journeysTo": [
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8700011",
+                            "name": "Paris Est",
+                            "location": {
+                                "type": "location",
+                                "id": "8700011",
+                                "latitude": 48.876976,
+                                "longitude": 2.35912
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": false,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T06:40:00+01:00",
+                        "plannedDeparture": "2023-02-22T06:40:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T09:53:00+01:00",
+                        "plannedArrival": "2023-02-22T09:53:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|214503|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-9558",
+                            "fahrtNr": "9558",
+                            "name": "ICE 9558",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Paris Est",
+                        "arrivalPlatform": null,
+                        "plannedArrivalPlatform": null,
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "2",
+                        "plannedDeparturePlatform": "2",
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Paris Est@L=8700011@a=128@$202302220640$202302220953$ICE 9558$$1$$$$$$",
+                "remarks": [],
+                "price": {
+                    "amount": 54.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            }
+        ]
+    },
+    {
+        "destination": {
+            "name": "Amsterdam-Centraal",
+            "id": "8400058"
+        },
+        "journeysTo": [
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T01:21:00+01:00",
+                        "plannedDeparture": "2023-02-22T01:21:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T01:40:00+01:00",
+                        "plannedArrival": "2023-02-22T01:40:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170892|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38385",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "8",
+                        "plannedDeparturePlatform": "8",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000085",
+                            "name": "Düsseldorf Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000085",
+                                "latitude": 51.219708,
+                                "longitude": 6.794011
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T03:43:00+01:00",
+                        "plannedDeparture": "2023-02-22T03:43:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T06:31:00+01:00",
+                        "plannedArrival": "2023-02-22T06:31:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|154896|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-618",
+                            "fahrtNr": "618",
+                            "name": "ICE 618",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Münster(Westf)Hbf",
+                        "arrivalPlatform": "17",
+                        "plannedArrivalPlatform": "17",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000085",
+                            "name": "Düsseldorf Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000085",
+                                "latitude": 51.219708,
+                                "longitude": 6.794011
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8400644",
+                            "name": "Venlo",
+                            "location": {
+                                "type": "location",
+                                "id": "8400644",
+                                "latitude": 51.361774,
+                                "longitude": 6.174241
+                            },
+                            "products": {
+                                "nationalExpress": false,
+                                "national": true,
+                                "regionalExpress": false,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T06:48:00+01:00",
+                        "plannedDeparture": "2023-02-22T06:48:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T07:56:00+01:00",
+                        "plannedArrival": "2023-02-22T07:56:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|215376|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "re-13",
+                            "fahrtNr": "20064",
+                            "name": "RE 13",
+                            "public": true,
+                            "adminCode": "R2RE__",
+                            "productName": "RE",
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "eurobahn",
+                                "name": "eurobahn"
+                            },
+                            "additionalName": "RE 13"
+                        },
+                        "direction": "Venlo",
+                        "arrivalPlatform": "1a",
+                        "plannedArrivalPlatform": "1a",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "4",
+                        "plannedDeparturePlatform": "4",
+                        "departurePrognosisType": "prognosed"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8400644",
+                            "name": "Venlo",
+                            "location": {
+                                "type": "location",
+                                "id": "8400644",
+                                "latitude": 51.361774,
+                                "longitude": 6.174241
+                            },
+                            "products": {
+                                "nationalExpress": false,
+                                "national": true,
+                                "regionalExpress": false,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8400621",
+                            "name": "Utrecht Centraal",
+                            "location": {
+                                "type": "location",
+                                "id": "8400621",
+                                "latitude": 52.089397,
+                                "longitude": 5.109864
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T08:03:00+01:00",
+                        "plannedDeparture": "2023-02-22T08:03:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T09:35:00+01:00",
+                        "plannedArrival": "2023-02-22T09:35:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|315051|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ic-3528",
+                            "fahrtNr": "3528",
+                            "name": "IC 3528",
+                            "public": true,
+                            "adminCode": "840100",
+                            "productName": "IC",
+                            "mode": "train",
+                            "product": "national",
+                            "operator": {
+                                "type": "operator",
+                                "id": "nederlandse-spoorwegen",
+                                "name": "Nederlandse Spoorwegen"
+                            }
+                        },
+                        "direction": "Schiphol (Airport)",
+                        "arrivalPlatform": "7",
+                        "plannedArrivalPlatform": "7",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "3",
+                        "plannedDeparturePlatform": "3",
+                        "departurePrognosisType": "prognosed"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8400621",
+                            "name": "Utrecht Centraal",
+                            "location": {
+                                "type": "location",
+                                "id": "8400621",
+                                "latitude": 52.089397,
+                                "longitude": 5.109864
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8400058",
+                            "name": "Amsterdam Centraal",
+                            "location": {
+                                "type": "location",
+                                "id": "8400058",
+                                "latitude": 52.379191,
+                                "longitude": 4.899427
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T09:39:00+01:00",
+                        "plannedDeparture": "2023-02-22T09:39:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:05:00+01:00",
+                        "plannedArrival": "2023-02-22T10:05:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|314345|1|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ic-3026",
+                            "fahrtNr": "3026",
+                            "name": "IC 3026",
+                            "public": true,
+                            "adminCode": "840100",
+                            "productName": "IC",
+                            "mode": "train",
+                            "product": "national",
+                            "operator": {
+                                "type": "operator",
+                                "id": "nederlandse-spoorwegen",
+                                "name": "Nederlandse Spoorwegen"
+                            }
+                        },
+                        "direction": "Den Helder",
+                        "arrivalPlatform": "8a",
+                        "plannedArrivalPlatform": "8a",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220121$202302220140$S      3$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Düsseldorf Hbf@L=8000085@a=128@$202302220343$202302220631$ICE  618$$1$$$$$$§T$A=1@O=Düsseldorf Hbf@L=8000085@a=128@$A=1@O=Venlo@L=8400644@a=128@$202302220648$202302220756$RE 20064$$1$$$$$$§T$A=1@O=Venlo@L=8400644@a=128@$A=1@O=Utrecht Centraal@L=8400621@a=128@$202302220803$202302220935$IC  3528$$1$$$$$$§T$A=1@O=Utrecht Centraal@L=8400621@a=128@$A=1@O=Amsterdam Centraal@L=8400058@a=128@$202302220939$202302221005$IC  3026$$1$$$$$$",
+                "remarks": [],
+                "price": {
+                    "amount": 37.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T01:21:00+01:00",
+                        "plannedDeparture": "2023-02-22T01:21:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T01:40:00+01:00",
+                        "plannedArrival": "2023-02-22T01:40:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170892|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38385",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "8",
+                        "plannedDeparturePlatform": "8",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000086",
+                            "name": "Duisburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000086",
+                                "latitude": 51.429615,
+                                "longitude": 6.77606
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T03:43:00+01:00",
+                        "plannedDeparture": "2023-02-22T03:43:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T06:46:00+01:00",
+                        "plannedArrival": "2023-02-22T06:46:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|154896|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-618",
+                            "fahrtNr": "618",
+                            "name": "ICE 618",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Münster(Westf)Hbf",
+                        "arrivalPlatform": "10",
+                        "plannedArrivalPlatform": "10",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000086",
+                            "name": "Duisburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000086",
+                                "latitude": 51.429615,
+                                "longitude": 6.77606
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8400071",
+                            "name": "Arnhem Centraal",
+                            "location": {
+                                "type": "location",
+                                "id": "8400071",
+                                "latitude": 51.98478,
+                                "longitude": 5.901005
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T07:44:00+01:00",
+                        "plannedDeparture": "2023-02-22T07:44:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T09:13:00+01:00",
+                        "plannedArrival": "2023-02-22T09:13:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|185383|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "via-re19",
+                            "fahrtNr": "20010",
+                            "name": "VIA RE19",
+                            "public": true,
+                            "adminCode": "R4NRN_",
+                            "productName": "VIA",
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "vias-rail-gmbh",
+                                "name": "VIAS Rail GmbH"
+                            },
+                            "additionalName": "VIA RE19"
+                        },
+                        "direction": "Arnhem Centraal",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "9",
+                        "plannedDeparturePlatform": "9",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8400071",
+                            "name": "Arnhem Centraal",
+                            "location": {
+                                "type": "location",
+                                "id": "8400071",
+                                "latitude": 51.98478,
+                                "longitude": 5.901005
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8400058",
+                            "name": "Amsterdam Centraal",
+                            "location": {
+                                "type": "location",
+                                "id": "8400058",
+                                "latitude": 52.379191,
+                                "longitude": 4.899427
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T09:32:00+01:00",
+                        "plannedDeparture": "2023-02-22T09:32:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:35:00+01:00",
+                        "plannedArrival": "2023-02-22T10:35:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|314383|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ic-3028",
+                            "fahrtNr": "3028",
+                            "name": "IC 3028",
+                            "public": true,
+                            "adminCode": "840100",
+                            "productName": "IC",
+                            "mode": "train",
+                            "product": "national",
+                            "operator": {
+                                "type": "operator",
+                                "id": "nederlandse-spoorwegen",
+                                "name": "Nederlandse Spoorwegen"
+                            }
+                        },
+                        "direction": "Den Helder",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "11",
+                        "plannedDeparturePlatform": "11",
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220121$202302220140$S      3$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Duisburg Hbf@L=8000086@a=128@$202302220343$202302220646$ICE  618$$1$$$$$$§T$A=1@O=Duisburg Hbf@L=8000086@a=128@$A=1@O=Arnhem Centraal@L=8400071@a=128@$202302220744$202302220913$VIA20010$$1$$$$$$§T$A=1@O=Arnhem Centraal@L=8400071@a=128@$A=1@O=Amsterdam Centraal@L=8400058@a=128@$202302220932$202302221035$IC  3028$$1$$$$$$",
+                "remarks": [],
+                "price": {
+                    "amount": 37.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000105",
+                            "name": "Frankfurt(Main)Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000105",
+                                "latitude": 50.106817,
+                                "longitude": 8.663003
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T04:45:00+01:00",
+                        "plannedDeparture": "2023-02-22T04:45:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T06:20:00+01:00",
+                        "plannedArrival": "2023-02-22T06:20:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|169851|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "rb-67",
+                            "fahrtNr": "15400",
+                            "name": "RB 67",
+                            "public": true,
+                            "adminCode": "800574",
+                            "productName": "RB",
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            },
+                            "additionalName": "RB 67"
+                        },
+                        "direction": "Frankfurt(Main)Hbf",
+                        "arrivalPlatform": "12",
+                        "plannedArrivalPlatform": "12",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "10",
+                        "plannedDeparturePlatform": "10",
+                        "departurePrognosisType": "prognosed"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000105",
+                            "name": "Frankfurt(Main)Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000105",
+                                "latitude": 50.106817,
+                                "longitude": 8.663003
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8400058",
+                            "name": "Amsterdam Centraal",
+                            "location": {
+                                "type": "location",
+                                "id": "8400058",
+                                "latitude": 52.379191,
+                                "longitude": 4.899427
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T06:28:00+01:00",
+                        "plannedDeparture": "2023-02-22T06:28:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:53:00+01:00",
+                        "plannedArrival": "2023-02-22T10:53:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|208846|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-250",
+                            "fahrtNr": "250",
+                            "name": "ICE 250",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Amsterdam Centraal",
+                        "arrivalPlatform": "7b",
+                        "plannedArrivalPlatform": "7b",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "19",
+                        "plannedDeparturePlatform": "19",
+                        "departurePrognosisType": "prognosed",
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Frankfurt(Main)Hbf@L=8000105@a=128@$202302220445$202302220620$RB 15400$$1$$$$$$§T$A=1@O=Frankfurt(Main)Hbf@L=8000105@a=128@$A=1@O=Amsterdam Centraal@L=8400058@a=128@$202302220628$202302221053$ICE  250$$1$$$$$$",
+                "price": {
+                    "amount": 66.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            }
+        ]
+    },
+    {
+        "destination": {
+            "name": "Bruxelles-Midi",
+            "id": "8800004"
+        },
+        "journeysTo": [
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000105",
+                            "name": "Frankfurt(Main)Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000105",
+                                "latitude": 50.106817,
+                                "longitude": 8.663003
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T04:45:00+01:00",
+                        "plannedDeparture": "2023-02-22T04:45:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T06:20:00+01:00",
+                        "plannedArrival": "2023-02-22T06:20:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|169851|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "rb-67",
+                            "fahrtNr": "15400",
+                            "name": "RB 67",
+                            "public": true,
+                            "adminCode": "800574",
+                            "productName": "RB",
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            },
+                            "additionalName": "RB 67"
+                        },
+                        "direction": "Frankfurt(Main)Hbf",
+                        "arrivalPlatform": "12",
+                        "plannedArrivalPlatform": "12",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "10",
+                        "plannedDeparturePlatform": "10",
+                        "departurePrognosisType": "prognosed"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000105",
+                            "name": "Frankfurt(Main)Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000105",
+                                "latitude": 50.106817,
+                                "longitude": 8.663003
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8800004",
+                            "name": "Bruxelles Midi",
+                            "location": {
+                                "type": "location",
+                                "id": "8800004",
+                                "latitude": 50.835375,
+                                "longitude": 4.335695
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T06:28:00+01:00",
+                        "plannedDeparture": "2023-02-22T06:28:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T09:35:00+01:00",
+                        "plannedArrival": "2023-02-22T09:35:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|151985|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-18",
+                            "fahrtNr": "18",
+                            "name": "ICE 18",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Bruxelles Midi",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "19",
+                        "plannedDeparturePlatform": "19",
+                        "departurePrognosisType": "prognosed",
+                        "loadFactor": "high"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Frankfurt(Main)Hbf@L=8000105@a=128@$202302220445$202302220620$RB 15400$$1$$$$$$§T$A=1@O=Frankfurt(Main)Hbf@L=8000105@a=128@$A=1@O=Bruxelles Midi@L=8800004@a=128@$202302220628$202302220935$ICE   18$$1$$$$$$",
+                "price": {
+                    "amount": 60.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            }
+        ]
+    },
+    {
+        "destination": {
+            "name": "Hamburg Hbf",
+            "id": "8002549"
+        },
+        "journeysTo": [
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8002549",
+                            "name": "Hamburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8002549",
+                                "latitude": 53.553533,
+                                "longitude": 10.00636
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T07:10:00+01:00",
+                        "plannedDeparture": "2023-02-22T07:10:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T13:14:00+01:00",
+                        "plannedArrival": "2023-02-22T13:14:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|152515|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-206",
+                            "fahrtNr": "206",
+                            "name": "ICE 206",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Münster(Westf)Hbf",
+                        "arrivalPlatform": "13",
+                        "plannedArrivalPlatform": "13",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "3",
+                        "plannedDeparturePlatform": "3",
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Hamburg Hbf@L=8002549@a=128@$202302220710$202302221314$ICE  206$$1$$$$$$",
+                "price": {
+                    "amount": 17.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T01:21:00+01:00",
+                        "plannedDeparture": "2023-02-22T01:21:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T01:40:00+01:00",
+                        "plannedArrival": "2023-02-22T01:40:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170892|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38385",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "8",
+                        "plannedDeparturePlatform": "8",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000105",
+                            "name": "Frankfurt(Main)Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000105",
+                                "latitude": 50.106817,
+                                "longitude": 8.663003
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T04:10:00+01:00",
+                        "plannedDeparture": "2023-02-22T04:10:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T05:09:00+01:00",
+                        "plannedArrival": "2023-02-22T05:09:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|153208|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ic-2326",
+                            "fahrtNr": "2326",
+                            "name": "IC 2326",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "IC",
+                            "mode": "train",
+                            "product": "national",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Dortmund Hbf",
+                        "arrivalPlatform": "16",
+                        "plannedArrivalPlatform": "16",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "7",
+                        "plannedDeparturePlatform": "7",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000105",
+                            "name": "Frankfurt(Main)Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000105",
+                                "latitude": 50.106817,
+                                "longitude": 8.663003
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8002549",
+                            "name": "Hamburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8002549",
+                                "latitude": 53.553533,
+                                "longitude": 10.00636
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T05:50:00+01:00",
+                        "plannedDeparture": "2023-02-22T05:50:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T09:36:00+01:00",
+                        "plannedArrival": "2023-02-22T09:36:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|155193|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-672",
+                            "fahrtNr": "672",
+                            "name": "ICE 672",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Hamburg-Altona",
+                        "arrivalPlatform": "11",
+                        "plannedArrivalPlatform": "11",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "8",
+                        "plannedDeparturePlatform": "8",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220121$202302220140$S      3$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Frankfurt(Main)Hbf@L=8000105@a=128@$202302220410$202302220509$IC  2326$$1$$$$$$§T$A=1@O=Frankfurt(Main)Hbf@L=8000105@a=128@$A=1@O=Hamburg Hbf@L=8002549@a=128@$202302220550$202302220936$ICE  672$$1$$$$$$",
+                "remarks": [],
+                "price": {
+                    "amount": 23.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T01:21:00+01:00",
+                        "plannedDeparture": "2023-02-22T01:21:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T01:40:00+01:00",
+                        "plannedArrival": "2023-02-22T01:40:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170892|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38385",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "8",
+                        "plannedDeparturePlatform": "8",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8002549",
+                            "name": "Hamburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8002549",
+                                "latitude": 53.553533,
+                                "longitude": 10.00636
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T03:43:00+01:00",
+                        "plannedDeparture": "2023-02-22T03:43:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:14:00+01:00",
+                        "plannedArrival": "2023-02-22T10:14:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|154896|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-618",
+                            "fahrtNr": "618",
+                            "name": "ICE 618",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Münster(Westf)Hbf",
+                        "arrivalPlatform": "12",
+                        "plannedArrivalPlatform": "12",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220121$202302220140$S      3$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Hamburg Hbf@L=8002549@a=128@$202302220343$202302221014$ICE  618$$1$$$$$$",
+                "remarks": [],
+                "price": {
+                    "amount": 23.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T04:57:00+01:00",
+                        "plannedDeparture": "2023-02-22T04:57:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T05:15:00+01:00",
+                        "plannedArrival": "2023-02-22T05:15:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|170813|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "4-801539-3",
+                            "fahrtNr": "38307",
+                            "name": "S 3",
+                            "public": true,
+                            "adminCode": "801539",
+                            "productName": "S",
+                            "mode": "train",
+                            "product": "suburban",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            }
+                        },
+                        "direction": "Karlsruhe Hbf",
+                        "arrivalPlatform": "8",
+                        "plannedArrivalPlatform": "8",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "9",
+                        "plannedDeparturePlatform": "9",
+                        "departurePrognosisType": "prognosed",
+                        "cycle": {
+                            "min": 660,
+                            "max": 2280,
+                            "nr": 6
+                        },
+                        "alternatives": [
+                            {
+                                "tripId": "1|170681|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-1",
+                                    "fahrtNr": "38103",
+                                    "name": "S 1",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Osterburken",
+                                "when": "2023-02-22T05:35:00+01:00",
+                                "plannedWhen": "2023-02-22T05:35:00+01:00",
+                                "delay": null
+                            },
+                            {
+                                "tripId": "1|170749|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-2",
+                                    "fahrtNr": "38211",
+                                    "name": "S 2",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Mosbach(Baden)",
+                                "when": "2023-02-22T06:01:00+01:00",
+                                "plannedWhen": "2023-02-22T06:01:00+01:00",
+                                "delay": null
+                            },
+                            {
+                                "tripId": "1|170821|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-3",
+                                    "fahrtNr": "38315",
+                                    "name": "S 3",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Karlsruhe Hbf",
+                                "when": "2023-02-22T06:12:00+01:00",
+                                "plannedWhen": "2023-02-22T06:12:00+01:00",
+                                "delay": null
+                            },
+                            {
+                                "tripId": "1|170687|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-1",
+                                    "fahrtNr": "38109",
+                                    "name": "S 1",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Osterburken",
+                                "when": "2023-02-22T06:34:00+01:00",
+                                "plannedWhen": "2023-02-22T06:34:00+01:00",
+                                "delay": null
+                            },
+                            {
+                                "tripId": "1|170828|0|80|22022023",
+                                "line": {
+                                    "type": "line",
+                                    "id": "4-801539-3",
+                                    "fahrtNr": "38319",
+                                    "name": "S 3",
+                                    "public": true,
+                                    "adminCode": "801539",
+                                    "productName": "S",
+                                    "mode": "train",
+                                    "product": "suburban",
+                                    "operator": {
+                                        "type": "operator",
+                                        "id": "db-regio-ag-mitte",
+                                        "name": "DB Regio AG Mitte"
+                                    }
+                                },
+                                "direction": "Karlsruhe Hbf",
+                                "when": "2023-02-22T06:46:00+01:00",
+                                "plannedWhen": "2023-02-22T06:46:00+01:00",
+                                "delay": null
+                            }
+                        ]
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8002549",
+                            "name": "Hamburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8002549",
+                                "latitude": 53.553533,
+                                "longitude": 10.00636
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T05:47:00+01:00",
+                        "plannedDeparture": "2023-02-22T05:47:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:36:00+01:00",
+                        "plannedArrival": "2023-02-22T10:36:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|155749|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-774",
+                            "fahrtNr": "774",
+                            "name": "ICE 774",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Hamburg-Altona",
+                        "arrivalPlatform": "11",
+                        "plannedArrivalPlatform": "11",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220457$202302220515$S      3$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Hamburg Hbf@L=8002549@a=128@$202302220547$202302221036$ICE  774$$1$$$$$$",
+                "cycle": {
+                    "min": 660
+                },
+                "price": {
+                    "amount": 23.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000631",
+                            "name": "Neu-Edingen/Friedrichsfeld",
+                            "location": {
+                                "type": "location",
+                                "id": "8000631",
+                                "latitude": 49.44842,
+                                "longitude": 8.579934
+                            },
+                            "products": {
+                                "nationalExpress": false,
+                                "national": false,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T05:14:00+01:00",
+                        "plannedDeparture": "2023-02-22T05:14:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T05:25:00+01:00",
+                        "plannedArrival": "2023-02-22T05:25:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|169852|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "rb-67",
+                            "fahrtNr": "15402",
+                            "name": "RB 67",
+                            "public": true,
+                            "adminCode": "800574",
+                            "productName": "RB",
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            },
+                            "additionalName": "RB 67"
+                        },
+                        "direction": "Frankfurt(Main)Hbf",
+                        "arrivalPlatform": "1",
+                        "plannedArrivalPlatform": "1",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "10",
+                        "plannedDeparturePlatform": "10",
+                        "departurePrognosisType": "prognosed"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000631",
+                            "name": "Neu-Edingen/Friedrichsfeld",
+                            "location": {
+                                "type": "location",
+                                "id": "8000631",
+                                "latitude": 49.44842,
+                                "longitude": 8.579934
+                            },
+                            "products": {
+                                "nationalExpress": false,
+                                "national": false,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": false,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T05:30:00+01:00",
+                        "plannedDeparture": "2023-02-22T05:30:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T05:39:00+01:00",
+                        "plannedArrival": "2023-02-22T05:39:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|169781|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "rb-68",
+                            "fahrtNr": "15301",
+                            "name": "RB 68",
+                            "public": true,
+                            "adminCode": "800574",
+                            "productName": "RB",
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte",
+                                "name": "DB Regio AG Mitte"
+                            },
+                            "additionalName": "RB 68"
+                        },
+                        "direction": "Heidelberg Hbf",
+                        "arrivalPlatform": "9",
+                        "plannedArrivalPlatform": "9",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "4",
+                        "plannedDeparturePlatform": "4",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8002549",
+                            "name": "Hamburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8002549",
+                                "latitude": 53.553533,
+                                "longitude": 10.00636
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T05:47:00+01:00",
+                        "plannedDeparture": "2023-02-22T05:47:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T10:36:00+01:00",
+                        "plannedArrival": "2023-02-22T10:36:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|155749|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-774",
+                            "fahrtNr": "774",
+                            "name": "ICE 774",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Hamburg-Altona",
+                        "arrivalPlatform": "11",
+                        "plannedArrivalPlatform": "11",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "5",
+                        "plannedDeparturePlatform": "5",
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Neu-Edingen/Friedrichsfeld@L=8000631@a=128@$202302220514$202302220525$RB 15402$$1$$$$$$§T$A=1@O=Neu-Edingen/Friedrichsfeld@L=8000631@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220530$202302220539$RB 15301$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Hamburg Hbf@L=8002549@a=128@$202302220547$202302221036$ICE  774$$1$$$$$$",
+                "price": {
+                    "amount": 23.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000128",
+                            "name": "Göttingen",
+                            "location": {
+                                "type": "location",
+                                "id": "8000128",
+                                "latitude": 51.536758,
+                                "longitude": 9.926257
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T06:32:00+01:00",
+                        "plannedDeparture": "2023-02-22T06:32:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T09:03:00+01:00",
+                        "plannedArrival": "2023-02-22T09:03:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|153570|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-270",
+                            "fahrtNr": "270",
+                            "name": "ICE 270",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Berlin Ostbahnhof",
+                        "arrivalPlatform": "9",
+                        "plannedArrivalPlatform": "9",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "2",
+                        "plannedDeparturePlatform": "2",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000128",
+                            "name": "Göttingen",
+                            "location": {
+                                "type": "location",
+                                "id": "8000128",
+                                "latitude": 51.536758,
+                                "longitude": 9.926257
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": false,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": false,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8002549",
+                            "name": "Hamburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8002549",
+                                "latitude": 53.553533,
+                                "longitude": 10.00636
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T09:17:00+01:00",
+                        "plannedDeparture": "2023-02-22T09:17:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T11:30:00+01:00",
+                        "plannedArrival": "2023-02-22T11:30:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|151734|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-1674",
+                            "fahrtNr": "1674",
+                            "name": "ICE 1674",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Hamburg-Altona",
+                        "arrivalPlatform": "14",
+                        "plannedArrivalPlatform": "14",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": "9",
+                        "plannedDeparturePlatform": "9",
+                        "departurePrognosisType": null,
+                        "loadFactor": "low-to-medium"
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Göttingen@L=8000128@a=128@$202302220632$202302220903$ICE  270$$1$$$$$$§T$A=1@O=Göttingen@L=8000128@a=128@$A=1@O=Hamburg Hbf@L=8002549@a=128@$202302220917$202302221130$ICE 1674$$1$$$$$$",
+                "price": {
+                    "amount": 23.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            },
+            {
+                "type": "journey",
+                "legs": [
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000244",
+                            "name": "Mannheim Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000244",
+                                "latitude": 49.479181,
+                                "longitude": 8.469268
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": false
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "departure": "2023-02-22T07:48:00+01:00",
+                        "plannedDeparture": "2023-02-22T07:48:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T08:01:00+01:00",
+                        "plannedArrival": "2023-02-22T08:01:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|171463|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "re-1",
+                            "fahrtNr": "4144",
+                            "name": "RE 1",
+                            "public": true,
+                            "adminCode": "800640",
+                            "productName": "RE",
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag-mitte-suwex",
+                                "name": "DB Regio AG Mitte SÜWEX"
+                            },
+                            "additionalName": "RE 1"
+                        },
+                        "direction": "Heidelberg Hbf",
+                        "arrivalPlatform": "7",
+                        "plannedArrivalPlatform": "7",
+                        "arrivalPrognosisType": "prognosed",
+                        "departurePlatform": "3",
+                        "plannedDeparturePlatform": "3",
+                        "departurePrognosisType": null
+                    },
+                    {
+                        "origin": {
+                            "type": "stop",
+                            "id": "8000156",
+                            "name": "Heidelberg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8000156",
+                                "latitude": 49.403582,
+                                "longitude": 8.67548
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": false,
+                                "tram": true,
+                                "taxi": true
+                            }
+                        },
+                        "destination": {
+                            "type": "stop",
+                            "id": "8002549",
+                            "name": "Hamburg Hbf",
+                            "location": {
+                                "type": "location",
+                                "id": "8002549",
+                                "latitude": 53.553533,
+                                "longitude": 10.00636
+                            },
+                            "products": {
+                                "nationalExpress": true,
+                                "national": true,
+                                "regionalExpress": true,
+                                "regional": true,
+                                "suburban": true,
+                                "bus": true,
+                                "ferry": false,
+                                "subway": true,
+                                "tram": false,
+                                "taxi": false
+                            }
+                        },
+                        "departure": "2023-02-22T08:10:00+01:00",
+                        "plannedDeparture": "2023-02-22T08:10:00+01:00",
+                        "departureDelay": null,
+                        "arrival": "2023-02-22T12:36:00+01:00",
+                        "plannedArrival": "2023-02-22T12:36:00+01:00",
+                        "arrivalDelay": null,
+                        "reachable": true,
+                        "tripId": "1|155723|0|80|22022023",
+                        "line": {
+                            "type": "line",
+                            "id": "ice-772",
+                            "fahrtNr": "772",
+                            "name": "ICE 772",
+                            "public": true,
+                            "adminCode": "80____",
+                            "productName": "ICE",
+                            "mode": "train",
+                            "product": "nationalExpress",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-fernverkehr-ag",
+                                "name": "DB Fernverkehr AG"
+                            }
+                        },
+                        "direction": "Hamburg-Altona",
+                        "arrivalPlatform": "12",
+                        "plannedArrivalPlatform": "12",
+                        "arrivalPrognosisType": null,
+                        "departurePlatform": null,
+                        "plannedDeparturePlatform": null,
+                        "departurePrognosisType": null
+                    }
+                ],
+                "refreshToken": "T$A=1@O=Mannheim Hbf@L=8000244@a=128@$A=1@O=Heidelberg Hbf@L=8000156@a=128@$202302220748$202302220801$RE  4144$$1$$$$$$§T$A=1@O=Heidelberg Hbf@L=8000156@a=128@$A=1@O=Hamburg Hbf@L=8002549@a=128@$202302220810$202302221236$ICE  772$$1$$$$$$",
+                "price": {
+                    "amount": 42.9,
+                    "currency": "EUR",
+                    "hint": null
+                }
+            }
+        ]
+    }
+]

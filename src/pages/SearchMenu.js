@@ -1,6 +1,7 @@
 import { React, useEffect, useState } from 'react';
-import  Results from './Results.js';
+import Results from './Results.js';
 import SelectedDestination from './SelectedDestination.js';
+import SearchableStationList from './SearchableStationList.js';
 
 export default function SearchMenu() {
 
@@ -9,8 +10,8 @@ export default function SearchMenu() {
     const [selectedDestination, setSelectedDestination] = useState(null);
     const [selectedStation, setSelectedStation] = useState(null);
 
-  const handleStationSelection = (station) => {
-    setSelectedStation(station);
+    const handleStationSelection = (station) => {
+        setSelectedStation(station);
     };
     function clickTest() {
         console.log("test")
@@ -34,6 +35,7 @@ export default function SearchMenu() {
         // You can pass formData as a fetch body directly:
         // You can work with it as a plain object.
         const formJson = Object.fromEntries(formData.entries());
+        formJson.from_location = selectedStation.id;
         console.log("prefetch")
         console.log(formJson)
         fetch('api/sendJourneys', {
@@ -57,12 +59,10 @@ export default function SearchMenu() {
             <div id="main-form-container">
                 <form method="POST" onSubmit={handleSubmit}>
                     <h2>Select your start location:</h2>
-                    <select class="location-select" name="from_location" required>
-                        <option value="">Select Location</option>
-                        <option value="8000253">Mönchengladbach</option>
-                        <option value="8098096">Stuttgart</option>
-                    </select>
-                        <h2>Please pick your time of travel: </h2>
+    
+                        <SearchableStationList onStationSelection={handleStationSelection} />
+                    
+                    <h2>Please pick your time of travel: </h2>
                     <div id="time-frame">
                         <label for="from_time">From</label>
                         <input id="from-time" class="date-selection" type="date" name="from_time"></input>
